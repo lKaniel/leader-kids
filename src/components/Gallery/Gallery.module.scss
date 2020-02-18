@@ -1,0 +1,54 @@
+.Gallery {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  img {
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    opacity: .1;
+  }
+
+  ul {
+    list-style: none;
+    z-index: 1;
+    position: absolute;
+    font-size: 75px;
+    color: #C6C5B9;
+    margin-left: 100px;
+
+    li {
+
+      font-weight: 600;
+
+      span{
+        color: #62929E;
+      }
+
+      button {
+        z-index: 100;
+        outline: none;
+        border: 2px solid #62929E;
+        border-radius: 30px;
+        width: 300px;
+        height: 50px;
+        background: transparent;
+        color: #62929E;
+        font-weight: 600;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover {
+          background: #62929E;
+          color: #C6C5B9;
+          transition: background .1s ease-in-out, color .1s ease-in-out;
+        }
+      }
+
+    }
+  }
+}

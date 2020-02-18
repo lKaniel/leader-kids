@@ -7,7 +7,6 @@ const HeaderMenu = () => {
     let headerMenuItems = menuItems.map((item, number) => (
         <HeaderMenuItem isActive={item.isActive} name={item.name} key={number}/>
     ));
-    console.log(headerMenuItems);
     return (
         <ul className={classes.HeaderMenu}>
             {headerMenuItems}
