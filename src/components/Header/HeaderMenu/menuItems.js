@@ -12,7 +12,7 @@ export default [
         isActive: false,
     },
     {
-        name: "Мат змагання",
+        name: "Змагання",
         isActive: false,
     },
 ];

@@ -7,8 +7,12 @@ const Gallery = () => {
             <ul>
                 <li>Смарт навчання.</li>
                 <li><span>У твоїй школі.</span></li>
-                <li><button>Почати навчання</button></li>
+                <li>
+                    <button>Почати навчання</button>
+                </li>
             </ul>
+            <div>
+            </div>
             {/*<img src={background} alt="background"/>*/}
         </div>
     );
