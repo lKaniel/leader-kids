@@ -1,5 +1,18 @@
 .Header{
   width: 100vw;
-  height: 100px;
   background: #393D3F;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  justify-content: space-between;
+
+  .Logo{
+    width: 75px;
+    margin-left: 30px;
+    font-size: 23px;
+    color: #C6C5B9;
+    font-style: italic;
+    cursor: pointer;
+  }
 }

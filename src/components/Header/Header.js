@@ -5,6 +5,7 @@ import HeaderMenu from "./HeaderMenu/HeaderMenu";
 const Header = () => {
     return (
         <div className={classes.Header}>
+            <div className={classes.Logo}>Logo</div>
             <HeaderMenu/>
         </div>
     );
